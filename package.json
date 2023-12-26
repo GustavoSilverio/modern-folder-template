@@ -1,7 +1,7 @@
 {
-  "name": "your-extension",
+  "name": "modern-folter-template",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "Gustavo Oliveira",
   "engines": {
       "vscode": "^1.0.0"
   },
