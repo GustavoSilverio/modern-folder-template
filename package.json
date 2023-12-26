@@ -2,6 +2,9 @@
   "name": "modern-folter-template",
   "version": "0.0.1",
   "publisher": "Gustavo Oliveira",
+  "repository": {
+    "url": "https://github.com/GustavoSilverio/modern-folder-template"
+  },
   "engines": {
       "vscode": "^1.0.0"
   },
@@ -22,6 +25,9 @@
           ]
       }
   },
+  "activationEvents": [
+    "onCommand:extension.createFolderAndFiles"
+  ],
   "scripts": {
       "vscode:prepublish": "tsc -p ./",
       "compile": "tsc -watch -p ./",
